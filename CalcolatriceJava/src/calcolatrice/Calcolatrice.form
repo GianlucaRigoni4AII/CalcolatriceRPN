@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="calcolatrice.Calcolatrice">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="11" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+      <foreground color="-2563"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="1dbbd" class="javax.swing.JLabel" binding="label">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Monospaced" size="18" style="0"/>
+          <foreground color="-16777216"/>
+          <text value="Premere on/off per iniziare"/>
+        </properties>
+      </component>
+      <component id="f78f7" class="javax.swing.JButton" binding="valueClose">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value=")"/>
+        </properties>
+      </component>
+      <component id="53942" class="javax.swing.JButton" binding="valueOpen">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="("/>
+        </properties>
+      </component>
+      <component id="d95fc" class="javax.swing.JButton" binding="ac">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="AC"/>
+        </properties>
+      </component>
+      <component id="9d144" class="javax.swing.JButton" binding="delete">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="DEL"/>
+        </properties>
+      </component>
+      <component id="a5821" class="javax.swing.JButton" binding="valueONOFF">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="On/Off"/>
+        </properties>
+      </component>
+      <component id="1c551" class="javax.swing.JButton" binding="moltiplication">
+        <constraints>
+          <grid row="2" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="*"/>
+        </properties>
+      </component>
+      <component id="37df6" class="javax.swing.JButton" binding="addition">
+        <constraints>
+          <grid row="2" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="5a09b" class="javax.swing.JButton" binding="subtraction">
+        <constraints>
+          <grid row="2" column="3" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="ef7d5" class="javax.swing.JButton" binding="value6">
+        <constraints>
+          <grid row="5" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="f5d86" class="javax.swing.JButton" binding="value5">
+        <constraints>
+          <grid row="5" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="d4ea5" class="javax.swing.JButton" binding="value7">
+        <constraints>
+          <grid row="5" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="7"/>
+          <verticalAlignment value="0"/>
+        </properties>
+      </component>
+      <component id="f9d14" class="javax.swing.JButton" binding="value8">
+        <constraints>
+          <grid row="5" column="3" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="32c32" class="javax.swing.JButton" binding="value9">
+        <constraints>
+          <grid row="5" column="4" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="94652" class="javax.swing.JButton" binding="value0">
+        <constraints>
+          <grid row="8" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="c2418" class="javax.swing.JButton" binding="value1">
+        <constraints>
+          <grid row="8" column="1" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <hideActionText value="false"/>
+          <opaque value="true"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="cf08a" class="javax.swing.JButton" binding="value2">
+        <constraints>
+          <grid row="8" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="5954d" class="javax.swing.JButton" binding="value3">
+        <constraints>
+          <grid row="8" column="3" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="875ac" class="javax.swing.JButton" binding="value4">
+        <constraints>
+          <grid row="8" column="4" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="593c1" class="javax.swing.JButton" binding="division">
+        <constraints>
+          <grid row="2" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="b8e49" class="javax.swing.JButton" binding="equals">
+        <constraints>
+          <grid row="2" column="4" row-span="3" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-16777216"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <defaultCapable value="true"/>
+          <doubleBuffered value="false"/>
+          <enabled value="true"/>
+          <focusCycleRoot value="false"/>
+          <focusPainted value="true"/>
+          <font name="Caladea" size="22"/>
+          <foreground color="-1"/>
+          <inheritsPopupMenu value="false"/>
+          <text value="="/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
